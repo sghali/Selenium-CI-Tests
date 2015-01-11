@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.app.qa.tests.TemperatureServicesTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 15.857 sec

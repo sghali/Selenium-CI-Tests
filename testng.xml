@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Temperature Application Testing">
+	 <parameter name="invalidZip"  value="12345"/>  
+	 <parameter name="emptyZip"  value=" "/>  
+	 <parameter name="zipString"  value="hari"/>    
+      <test name="Functional Testing" enabled="true">
+      	<groups>
+    		<run>
+     			 <include name="functest"/>
+     			 <include name="guitest"/>
+    		</run>
+  		</groups>  
+           <classes>
+                  <class name="com.app.qa.tests.TemperatureServicesTest">
+                        <methods>
+                            <include name="verifyTemperature"/> 
+                            <include name="verifyTemperaturNoValue"/> 
+                            <include name="verifyTemperatureForMissingZip"/> 
+                             <include name="verifyTemperatureWithInvalidDetails"/> 
+                             <include name="verifyPageTitle"/> 
+                             <include name="verifyPageHeader"/>                                                                                                                                            
+                  </methods>
+                  </class>
+            </classes>
+      </test>  
+      
+ <!--     <test name="WebServices Testing" enabled="true"> 
+       <parameter name="restZIPCode"  value="78735"/> 
+       <parameter name="invalidZip"  value="12345"/> 
+       <parameter name="expectedResponseType"  value="application/json"/>                        	
+           <classes>
+                  <class name="com.app.qa.tests.RESTTest">
+                        <methods>
+                            <include name="testStatusCode"/> 
+                            <include name="testResponseType"/> 
+                            <include name="testContentJSON"/> 
+                            <include name="testStatus404Code"/> 
+                            <include name="testStatusNoConentCode"/>                                     
+                                                                                                                                           
+                 		 </methods>
+                  </class>
+            </classes>
+      </test>   
+            -->
+      
+</suite>

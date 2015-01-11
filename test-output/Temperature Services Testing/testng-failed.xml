@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Temperature Services Testing]">
+  <parameter name="emptyZip" value=" "/>
+  <parameter name="restZIPCode" value="78735"/>
+  <parameter name="zipString" value="hari"/>
+  <parameter name="expectedResponseType" value="application/json"/>
+  <parameter name="invalidZip" value="12345"/>
+  <test name="Functional Testing(failed)">
+    <groups>
+      <run>
+        <include name="functest"/>
+        <include name="guitest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.app.qa.tests.REST">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="set"/>
+          <include name="tearDown"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.app.qa.tests.REST -->
+      <class name="com.app.qa.tests.TemperatureServicesTest">
+        <methods>
+          <include name="verifyTemperatureWithInvalidDetails" invocation-numbers="0"/>
+          <include name="verifyTemperatureForMissingZip" invocation-numbers="0"/>
+          <include name="verifyPageHeader"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.app.qa.tests.TemperatureServicesTest -->
+    </classes>
+  </test> <!-- Functional Testing(failed) -->
+</suite> <!-- Failed suite [Temperature Services Testing] -->

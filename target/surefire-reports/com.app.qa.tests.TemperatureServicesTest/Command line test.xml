@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="sree-PC" name="com.app.qa.tests.TemperatureServicesTest" tests="7" failures="0" timestamp="11 Jan 2015 17:30:56 GMT" time="3.092" errors="0">
+  <testcase name="verifyPageHeader" time="0.14" classname="com.app.qa.tests.TemperatureServicesTest"/>
+  <testcase name="verifyPageTitle" time="0.017" classname="com.app.qa.tests.TemperatureServicesTest"/>
+  <testcase name="verifyTemperaturNoValue" time="0.002" classname="com.app.qa.tests.TemperatureServicesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyTemperature" time="1.477" classname="com.app.qa.tests.TemperatureServicesTest"/>
+  <testcase name="verifyTemperature" time="1.268" classname="com.app.qa.tests.TemperatureServicesTest"/>
+  <testcase name="verifyTemperatureForMissingZip" time="0.001" classname="com.app.qa.tests.TemperatureServicesTest">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyTemperatureWithInvalidDetails" time="0.0" classname="com.app.qa.tests.TemperatureServicesTest">
+    <skipped/>
+  </testcase>
+</testsuite>

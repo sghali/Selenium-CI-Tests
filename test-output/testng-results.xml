@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Temperature Application Testing" duration-ms="7536" started-at="2015-01-11T17:30:00Z" finished-at="2015-01-11T17:30:08Z">
+    <groups>
+      <group name="functest">
+        <method signature="TemperatureServicesTest.verifyTemperaturNoValue(java.lang.String)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="verifyTemperaturNoValue" class="com.app.qa.tests.TemperatureServicesTest"/>
+        <method signature="TemperatureServicesTest.verifyTemperature(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="verifyTemperature" class="com.app.qa.tests.TemperatureServicesTest"/>
+        <method signature="TemperatureServicesTest.verifyTemperatureForMissingZip(java.lang.String)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="verifyTemperatureForMissingZip" class="com.app.qa.tests.TemperatureServicesTest"/>
+        <method signature="TemperatureServicesTest.verifyTemperatureWithInvalidDetails(java.lang.String)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="verifyTemperatureWithInvalidDetails" class="com.app.qa.tests.TemperatureServicesTest"/>
+      </group> <!-- functest -->
+      <group name="guitest">
+        <method signature="TemperatureServicesTest.verifyPageHeader()[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="verifyPageHeader" class="com.app.qa.tests.TemperatureServicesTest"/>
+        <method signature="TemperatureServicesTest.verifyPageTitle()[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="verifyPageTitle" class="com.app.qa.tests.TemperatureServicesTest"/>
+      </group> <!-- guitest -->
+    </groups>
+    <test name="Functional Testing" duration-ms="7536" started-at="2015-01-11T17:30:00Z" finished-at="2015-01-11T17:30:08Z">
+      <class name="com.app.qa.tests.TemperatureServicesTest">
+        <test-method status="PASS" signature="setupSuite(org.testng.ITestContext)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="setupSuite" is-config="true" duration-ms="12775" started-at="2015-01-11T11:29:48Z" finished-at="2015-01-11T11:30:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f68f0dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="reportHeader" is-config="true" duration-ms="2" started-at="2015-01-11T11:30:01Z" finished-at="2015-01-11T11:30:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.qa.tests.TemperatureServicesTest.verifyTemperature(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="verifyTemperature(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="verifyTemperature" duration-ms="1655" started-at="2015-01-11T11:30:01Z" data-provider="dp_SearchZip" finished-at="2015-01-11T11:30:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[78735]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTemperature -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="reportHeader" is-config="true" duration-ms="2" started-at="2015-01-11T11:30:02Z" finished-at="2015-01-11T11:30:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.qa.tests.TemperatureServicesTest.verifyTemperature(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="verifyTemperature(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="verifyTemperature" duration-ms="1191" started-at="2015-01-11T11:30:02Z" data-provider="dp_SearchZip" finished-at="2015-01-11T11:30:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[78736]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTemperature -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="reportHeader" is-config="true" duration-ms="2" started-at="2015-01-11T11:30:04Z" finished-at="2015-01-11T11:30:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.qa.tests.TemperatureServicesTest.verifyTemperaturNoValue(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="verifyTemperaturNoValue(java.lang.String)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="verifyTemperaturNoValue" duration-ms="751" started-at="2015-01-11T11:30:04Z" finished-at="2015-01-11T11:30:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTemperaturNoValue -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="reportHeader" is-config="true" duration-ms="3" started-at="2015-01-11T11:30:04Z" finished-at="2015-01-11T11:30:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.qa.tests.TemperatureServicesTest.verifyTemperatureForMissingZip(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="verifyTemperatureForMissingZip(java.lang.String)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="verifyTemperatureForMissingZip" duration-ms="2234" started-at="2015-01-11T11:30:04Z" finished-at="2015-01-11T11:30:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTemperatureForMissingZip -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="reportHeader" is-config="true" duration-ms="2" started-at="2015-01-11T11:30:07Z" finished-at="2015-01-11T11:30:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.qa.tests.TemperatureServicesTest.verifyTemperatureWithInvalidDetails(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="verifyTemperatureWithInvalidDetails(java.lang.String)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="verifyTemperatureWithInvalidDetails" duration-ms="503" started-at="2015-01-11T11:30:07Z" finished-at="2015-01-11T11:30:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTemperatureWithInvalidDetails -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="reportHeader" is-config="true" duration-ms="3" started-at="2015-01-11T11:30:07Z" finished-at="2015-01-11T11:30:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.qa.tests.TemperatureServicesTest.verifyPageTitle() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="verifyPageTitle" duration-ms="785" started-at="2015-01-11T11:30:07Z" finished-at="2015-01-11T11:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="reportHeader" is-config="true" duration-ms="5" started-at="2015-01-11T11:30:08Z" finished-at="2015-01-11T11:30:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.app.qa.tests.TemperatureServicesTest.verifyPageHeader() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="verifyPageHeader()[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="verifyPageHeader" duration-ms="80" started-at="2015-01-11T11:30:08Z" finished-at="2015-01-11T11:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageHeader -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestContext)[pri:0, instance:com.app.qa.tests.TemperatureServicesTest@5f9d02cb]" name="tearDown" is-config="true" duration-ms="394" started-at="2015-01-11T11:30:08Z" finished-at="2015-01-11T11:30:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f68f0dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.app.qa.tests.TemperatureServicesTest -->
+    </test> <!-- Functional Testing -->
+  </suite> <!-- Temperature Application Testing -->
+</testng-results>
